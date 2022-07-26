@@ -139,12 +139,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to "blue"
+// should be let colorOne = "blue";
 let colorOne = 'red';
+// FIX - colorTwo should be set to "red"
+// should be let colorTwo = "red";
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX colorTwo should also be updated to "purple"
+  // should be colorTwo = "purple";
 }
 */
 
@@ -154,8 +160,12 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX time should be a variable
+// should be let time = 4;
 const time = 4;
 
+// FIX conditional is set to OR operator; should be AND operator
+// should be if (temp > 39 && time >=4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -167,11 +177,18 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+// FIX minAge should be a variable
+// should be let minAge = 21;
 const minAge = 21;
 
+// FIX description says conditional checks if age greater than or equal to minAge; currently reversed (however, the conditional logic is correct)
+// should be if (age >= minAge) {
 if(minAge <= age) {
+  // FIX "entry" and "no entry" are reversed logically
+  // should be console.log("enter");
   console.log('no entry');
 } else {
+  // should be console.log("no entry");
   console.log('enter');
 }
 */
