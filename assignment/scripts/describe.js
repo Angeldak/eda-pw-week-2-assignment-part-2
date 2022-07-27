@@ -159,9 +159,9 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// FIX temp to a constant since it is not changing in code - helps readability
+// should be const temp = 40;
 let temp = 40;
-// FIX time should be a variable
-// should be let time = 4;
 const time = 4;
 
 // FIX conditional is set to OR operator; should be AND operator
@@ -176,9 +176,9 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+// FIX changing age to const since it is not being changed - helps readability
+// should be const age = 21;
 let age = 21;
-// FIX minAge should be a variable
-// should be let minAge = 21;
 const minAge = 21;
 
 // FIX description says conditional checks if age greater than or equal to minAge; currently reversed (however, the conditional logic is correct)
