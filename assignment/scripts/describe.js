@@ -27,7 +27,7 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We declare a variable called "name" and set it's value to a string of "Dane".
-// We then run a conditional that checks if the variable "name" is set to a string of "Mary"
+// We then run a conditional that checks if the variable "name" is equal to a string of "Mary"
 // If it is "Mary" it console logs "Hi, Mary!"
 //If it is not "Mary" it console logs "How do you do?"
 
@@ -47,7 +47,7 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // We declare a variable named "secret" that is set to undefined
 // We then declare a second variable named "code" and set it's value to a number of 123
-// A conditional is then run that checks if the variable "code" is set to the number 123
+// A conditional is then run that checks if the variable "code" is equal to the number 123
 // If it is, then we update the "secret" variable to a string of "super" and multiply the code times 2
 // (The variable "secret" would now be a string value of "super" and the variable "code" would be a number of 246)
 // Whether true or false, it continues on with the code to the next conditional that checks if the variable "code" is greater than 250
@@ -76,11 +76,11 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // We first declare these three variables: 
 // "isStudent" set to a boolean of "true", "age" set to a number of "34", "zip" set to a number of "55407"
-// A conditional if then runs to check if "isStudent" is set to "true" AND "zip" is greater than 8000.  This conditional is not met as it requires both.
+// A conditional if then runs to check if "isStudent" is equal to "true" AND "zip" is greater than 8000.  This conditional is not met as it requires both.
 // (if both conditions were met it would have console logged "You're a student on the West Coast!")
-// it then checks an additional conditional of "isStudent" set to "false" OR "age" less than 30. Neither of these conditionals are met.
+// it then checks an additional conditional of "isStudent" equal to "false" OR "age" less than 30. Neither of these conditionals are met.
 // (if EITHER conditional had been met it would have console logged "What are your hobbies?")
-// it then checks a final conditional of "isStudent" set to "true".  This conditional is met. 
+// it then checks a final conditional of "isStudent" equal to "true".  This conditional is met. 
 // the console would then log "Welcome to Prime!" for this block.
 // If the prior conditional (or none of the above) hadn't been met, the default console log would have been "How about the weather?"
 
